@@ -1,0 +1,25 @@
+/* Write your CSS here */
+
+.mode-Container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.dark-mode {
+  background-color: #000;
+  border-radius: 8px;
+  padding: 20px;
+  color: #fff;
+}
+
+.light-mode {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  color: #000;
+  border: 1px solid #000;
+}
